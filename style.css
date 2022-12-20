@@ -115,8 +115,10 @@ body {
     width: 200px;
     height: 120px;
     background-color: #00a149;
-    -webkit-mask-image: url(VRLogo.svg);
     mask-image: url(VRLogo.svg);
     mask-size: 70% auto;
     mask-repeat: no-repeat;
+    -webkit-mask-image: url(VRLogo.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 70% auto;
 }
