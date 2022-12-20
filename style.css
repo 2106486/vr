@@ -1,0 +1,122 @@
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.tachografCanvasId {
+    background-color: #111111;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-family: sans-serif;
+    font-size: 0.95em;
+    padding: 0em;
+    margin: 0em;
+    border-width: 0em;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #1a2639;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 5vh;
+}
+
+.title {
+    background-color: #1a2639;
+    font-size: 2em;
+    color: #00a149;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 10 7em;
+    letter-spacing: 0.3em;
+}
+
+.instructions {
+    background-color: #1a2639;
+    font-size: 0.6em;
+    font-weight: lighter;
+    color: lightgray;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1 10 8em;
+    letter-spacing: 0em;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+.container {
+    background-color: green;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.page {
+    background-color: green;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.trains {
+    background-color: #888888;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 85vh;
+    flex: 1 10 15em;
+}
+
+.train {
+    background-color: #1a2639;
+    color: #d9dad7;
+    padding:0.5em;
+}
+
+.train:active{
+    color: white;
+}
+
+.selected {
+    background-color: #00a149;
+    /*color: #d9dad7;*/
+    color: #000000;
+    padding:0.5em;
+}
+
+.map {
+    background-color: black;
+    height: 85vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    flex: 30 1 30em;
+
+}
+.tachograf {
+    background-color: #1a2639;
+    height: 85vh;
+    flex: 1 10 20em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.icon {
+    width: 200px;
+    height: 120px;
+    background-color: #00a149;
+    -webkit-mask-image: url(VRLogo.svg);
+    mask-image: url(VRLogo.svg);
+    mask-size: 70% auto;
+    mask-repeat: no-repeat;
+}

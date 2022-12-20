@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VR</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>-->
+    <!--    <script src="https://cdn.jsdelivr.net/npm/ol@v7.1.0/dist/ol.js"></script>-->
+    <!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css">-->
+</head>
+<body>
+<div class="page">
+    <div class="container">
+        <div class="title">
+            <div class="icon"></div>
+            TRAIN TRACKER
+            <p class="instructions">The location and speed of the currently running VR trains are pulled regularly from rata.digitraffic.fi/api.</p>
+            <p class="instructions">The trains are listed in the left navigation pane besides their current speed and the amount of data-points pulled so far. Click on any of these trains to get a diagram with the speed statistics for the last 6 minutes.</p>
+        </div>
+        <div class="trains" id="trainContainer">
+        </div>
+        <div class="map">
+            <canvas id=mapCanvas></canvas>
+        </div>
+        <div class="tachograf" id="tachografDiv">
+            <canvas id=tachografCanvas></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<!--<script src="script-inspiration01.js"></script>-->
+
+<!--<div id="map" style="width: 100vw; height: 100vh;"></div>-->
+<!--<script src="script-inspiration03.js"></script>-->
+</body>
+</html>
