@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-    background-color: green;
+    background-color: #1a2639;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
