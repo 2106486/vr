@@ -1,0 +1,4 @@
+[[headers]]
+  for = "https://rata.digitraffic.fi/api/v1/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
